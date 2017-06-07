@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Teazy</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_partys">Soirées</string>
+    <string name="menu_teams">Teams</string>
+    <string name="menu_cocktails">Cocktails</string>
+
+    <!-- HOME -->
+    <string name="home_title">Teazy</string>
+    <string name="home_text">Salut Robin !</string>
+    <string name="home_notification_text">Salut Robin !</string>
+    <string name="home_question">Envie d\'organiser une soirée ?</string>
+    <!-- END HOME -->
+
+    <string name="title_activity_login">Login</string>
+    <string name="next">NEXT</string>
+    <string name="skip">PASSER</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Définissez une liste de course</string>
+    <string name="slide_1_desc">Prenez connaissance à l’avance de ce que ramène vos amis !</string>
+
+    <string name="slide_2_title">Préparez des cocktails facilement</string>
+    <string name="slide_2_desc">Une liste de cocktail sera établie en fonction de ce que vos amis ramènent !</string>
+
+    <string name="slide_3_title">Trinquez !</string>
+    <string name="slide_3_desc">Il ne vous reste plus qu’à préparer et déguster ces delicieux cocktails !</string>
+
+    <string name="slide_4_title">Trinquez !</string>
+    <string name="slide_4_desc">Il ne vous reste plus qu’à préparer et déguster ces delicieux cocktails !</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>

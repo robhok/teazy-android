@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/menu_home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_partys"
+        android:enabled="true"
+        android:icon="@drawable/ic_partys"
+        android:title="@string/menu_partys"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_teams"
+        android:enabled="true"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="@string/menu_teams"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_cocktails"
+        android:enabled="true"
+        android:icon="@drawable/ic_local_bar_black_24dp"
+        android:title="@string/menu_cocktails"
+        app:showAsAction="ifRoom" />
+</menu>
