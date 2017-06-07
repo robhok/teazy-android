@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = PartysFragment.newInstance();
                         break;
                     case R.id.action_profile:
-                        selectedFragment = TeamsFragment.newInstance();
+                        selectedFragment = ProfileFragment.newInstance();
                         break;
                     case R.id.action_cocktails:
                         selectedFragment = CocktailsFragment.newInstance();

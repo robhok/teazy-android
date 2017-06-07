@@ -10,9 +10,9 @@ import android.view.ViewGroup;
  * Created by Robin on 07/06/2017.
  */
 
-public class TeamsFragment extends Fragment {
-    public static TeamsFragment newInstance() {
-        TeamsFragment fragment = new TeamsFragment();
+public class ProfileFragment extends Fragment {
+    public static ProfileFragment newInstance() {
+        ProfileFragment fragment = new ProfileFragment();
         return fragment;
     }
 
@@ -24,6 +24,6 @@ public class TeamsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_teams, container, false);
+        return inflater.inflate(R.layout.fragment_profile, container, false);
     }
 }
