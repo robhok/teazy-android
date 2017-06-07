@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "38130490073",
+    "firebase_url": "https://teazy-android.firebaseio.com",
+    "project_id": "teazy-android",
+    "storage_bucket": "teazy-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38130490073:android:bce6f17012adc02f",
+        "android_client_info": {
+          "package_name": "com.hetic.teazy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38130490073-jgcefko9n4o0ro33vupm91ni07v4pcqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hetic.teazy",
+            "certificate_hash": "ce05670faca7ff8134ec1a92c117433c80c28a7c"
+          }
+        },
+        {
+          "client_id": "38130490073-so0lm29givhopcbalui1tv2g2s0snicq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhygsnedFEWckvmfUiPVb4vMo1-zBVTyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38130490073-so0lm29givhopcbalui1tv2g2s0snicq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

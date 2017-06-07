@@ -2,7 +2,7 @@
     <string name="app_name">Teazy</string>
     <string name="menu_home">Home</string>
     <string name="menu_partys">Soirées</string>
-    <string name="menu_teams">Teams</string>
+    <string name="menu_profile">Profil</string>
     <string name="menu_cocktails">Cocktails</string>
 
     <!-- HOME -->

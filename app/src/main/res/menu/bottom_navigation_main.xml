@@ -14,15 +14,15 @@
         android:title="@string/menu_partys"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/action_teams"
-        android:enabled="true"
-        android:icon="@drawable/ic_group_black_24dp"
-        android:title="@string/menu_teams"
-        app:showAsAction="ifRoom" />
-    <item
         android:id="@+id/action_cocktails"
         android:enabled="true"
         android:icon="@drawable/ic_local_bar_black_24dp"
         android:title="@string/menu_cocktails"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_group_black_24dp"
+        android:title="@string/menu_profile"
         app:showAsAction="ifRoom" />
 </menu>
