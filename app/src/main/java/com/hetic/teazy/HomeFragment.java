@@ -30,10 +30,6 @@ public class HomeFragment extends Fragment {
         TimePickerFragment newFragment = new TimePickerFragment();
         newFragment.show(getActivity().getFragmentManager(), "timePicker");
     }
-    public void showDatePickerDialog(View v) {
-        DatePickerFragment newFragment = new DatePickerFragment();
-        newFragment.show(getFragmentManager(), "datePicker");
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

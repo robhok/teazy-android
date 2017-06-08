@@ -29,7 +29,6 @@ public class HomeOrganizeFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
@@ -38,21 +37,42 @@ public class HomeOrganizeFragment extends Fragment {
         View button = view.findViewById(R.id.button_organize_back);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                // Perform action on click
                 getFragmentManager().popBackStack();
-
             }
         });
         View submit = view.findViewById(R.id.button_organize_submit);
         submit.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                // Perform action on click
-                FragmentTransaction transaction = getFragmentManager().beginTransaction();
-                transaction.add(R.id.frame_layout, HomeFriendsFragment.newInstance()).addToBackStack("HomeOrganize").commit();
-
+                getFragmentManager().popBackStack();
             }
         });
-        ActionBar actionBar = getActivity().getActionBar();
+        View add = view.findViewById(R.id.button_organize_add);
+        add.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+                transaction.add(R.id.frame_layout, HomeFriendsFragment.newInstance()).addToBackStack("HomeOrganize").commit();
+            }
+        });
+        View date = view.findViewById(R.id.input_date);
+        date.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (hasFocus == true) {
+                    DatePickerFragment newFragment = new DatePickerFragment();
+                    newFragment.show(getFragmentManager(), "datePicker");
+                }
+            }
+        });
+        View hour = view.findViewById(R.id.input_hour);
+        hour.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (hasFocus == true) {
+                    TimePickerFragment newFragment = new TimePickerFragment();
+                    newFragment.show(getActivity().getFragmentManager(), "timePicker");
+                }
+            }
+        });
         return view;
     }
 
