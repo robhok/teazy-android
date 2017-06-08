@@ -38,6 +38,8 @@ public class IntroActivity extends AppCompatActivity {
             launchHomeScreen();
             finish();
         }
+        // Remove status bar
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         // Making notification bar transparent
         if (Build.VERSION.SDK_INT >= 21) {
@@ -117,7 +119,7 @@ public class IntroActivity extends AppCompatActivity {
     }
 
     private void launchHomeScreen() {
-        prefManager.setFirstTimeLaunch(true);
+        prefManager.setFirstTimeLaunch(false);
         startActivity(new Intent(IntroActivity.this, MainActivity.class));
         finish();
     }

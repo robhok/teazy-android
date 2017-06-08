@@ -4,6 +4,9 @@
     <color name="colorPrimaryLight">#37475C</color>
     <color name="colorAccent">#FF4081</color>
     <color name="lighter">#F9F9F9</color>
+    <color name="darker">#878E99</color>
+    <color name="light_opacity">#9affffff</color>
+    <color name="gold">#F4B350</color>
 
     <!-- Screens background color-->
     <color name="bg_screen1">@color/colorPrimary</color>

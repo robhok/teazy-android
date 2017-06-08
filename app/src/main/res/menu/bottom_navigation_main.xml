@@ -4,25 +4,25 @@
     <item
         android:id="@+id/action_home"
         android:enabled="true"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:icon="@drawable/tab_home"
         android:title="@string/menu_home"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_partys"
         android:enabled="true"
-        android:icon="@drawable/ic_partys"
+        android:icon="@drawable/tab_partys"
         android:title="@string/menu_partys"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_cocktails"
         android:enabled="true"
-        android:icon="@drawable/ic_local_bar_black_24dp"
+        android:icon="@drawable/tab_cocktails"
         android:title="@string/menu_cocktails"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_profile"
         android:enabled="true"
-        android:icon="@drawable/ic_group_black_24dp"
+        android:icon="@drawable/tab_profile"
         android:title="@string/menu_profile"
         app:showAsAction="ifRoom" />
 </menu>
