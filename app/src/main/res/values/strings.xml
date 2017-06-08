@@ -17,7 +17,7 @@
     <string name="title_activity_login">Login</string>
     <string name="next">NEXT</string>
     <string name="skip">PASSER</string>
-    <string name="start">GOT IT</string>
+    <string name="start">COMPRIS</string>
 
     <string name="slide_1_title">Définissez une liste de course</string>
     <string name="slide_1_desc">Prenez connaissance à l’avance de ce que ramène vos amis !</string>
@@ -31,6 +31,6 @@
     <string name="slide_4_title">Trinquez !</string>
     <string name="slide_4_desc">Il ne vous reste plus qu’à préparer et déguster ces delicieux cocktails !</string>
 
-    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
-    <string name="play_again">Play Again</string>
+    <string name="play_again_desc">Vous pouvez recommencer l\'introduction.</string>
+    <string name="play_again">Essayez encore</string>
 </resources>
