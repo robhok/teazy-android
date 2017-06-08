@@ -10,6 +10,8 @@
     <string name="home_text">Salut Robin !</string>
     <string name="home_notification_text">Salut Robin !</string>
     <string name="home_question">Envie d\'organiser une soirée ?</string>
+
+    <string name="home_organize_title">Organiser une soirée</string>
     <!-- END HOME -->
 
     <string name="title_activity_login">Login</string>
